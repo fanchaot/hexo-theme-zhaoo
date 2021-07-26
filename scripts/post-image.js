@@ -28,7 +28,9 @@ module.exports.postImage = function (hexo) {
     var images = getImages();
     var count = images.length;
     var res = hexo.theme.config.post_image.default;
+    
 
+    
     if (type === 'string') {
       res = input;
     } else if (type === 'number') {
@@ -40,7 +42,6 @@ module.exports.postImage = function (hexo) {
     if (!res) {
       res = hexo.theme.config.post_image.default;
     }
-
     return res;
   });
 }
