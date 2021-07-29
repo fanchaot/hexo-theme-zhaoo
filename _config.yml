@@ -144,8 +144,8 @@ toc:
 # Donate
 donate:
   enable: true
-  alipay: https://pic.izhaoo.com/alipay.jpg
-  wechat: https://pic.izhaoo.com/wechat.jpg
+  alipay: /images/icons/alipay.jpg
+  wechat: /images/icons/wechat.jpg
 
 # Copyright
 post_copyright:
@@ -174,7 +174,7 @@ galleries:
 # --------------------------------------------------
 
 comments:
-  enable: false
+  enable: true
   type: valine # gitalk | valine | changyan
   button: true
 
