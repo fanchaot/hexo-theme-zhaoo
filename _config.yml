@@ -29,11 +29,11 @@ color:
 
 # Favicon
 favicon:
-  small: /images/icons/favicon-16x16.png
-  medium: /images/icons/favicon-32x32.png
-  apple_touch_icon: /images/icons/apple-touch-icon.png
-  safari_pinned_tab: /images/icons/stun-logo.svg
-  msapplication: /images/icons/favicon-144x144.png
+  small: /images/icons/logo2xx.png
+  medium: /images/icons/logo2xx.png
+  apple_touch_icon: /images/icons/logo2xx.png
+  safari_pinned_tab: /images/icons/logo2xx.svg
+  msapplication: /images/icons/logo2xx.png
 
 # Font
 font:
@@ -55,18 +55,18 @@ preview:
   background:
     type: image # image video
     default_image:
-      light: /images/theme/welcome-image.jpg
-      dark: /images/theme/welcome-image.jpg
+      light: https://source.unsplash.com/random/1920x1080
+      dark: https://source.unsplash.com/random/1920x1080
     video:
-    api: # https://source.unsplash.com/random/1920x1080
+    api: https://source.unsplash.com/random/1920x1080
     size: cover # css: background-size
     position: center # css: background-position
   motto:
     default: 我在开了灯的床头下，想问问自己的心啊。
     color: '#ffffff'
     typing: true
-    api: https://v2.jinrishici.com/one.json
-    data_contents: ['data', 'content']
+    api: https://v1.hitokoto.cn/?encode=text&c=d
+    # data_contents: ['data', 'content']
     # ex.one  =>  apl: https://v1.hitokoto.cn/?encode=text&c=i  data_contents:
     # ex.two  =>  api: https://v2.jinrishici.com/one.json  data_contents: ['data', 'content']
 
